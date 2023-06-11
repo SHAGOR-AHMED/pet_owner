@@ -1,0 +1,8 @@
+.table-bordered thead{
+    background-color: #1976D2;
+    color: #fff !important;
+}
+
+.table-bordered thead a{
+    color: #fff !important;
+}

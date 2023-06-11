@@ -1,0 +1,23 @@
+body{
+	background-color: #fff !important;
+}
+.fixed-footer {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%,0%);
+}
+
+/*--responsive--*/
+@media (max-width: 576px)  {
+	form h3{
+		font-size: 22px;
+	}
+	form{
+		width: 370px;
+		position: absolute;
+		transform: translate(-50%,-50%);
+		top: 50%;
+		left: 50%;
+	}
+}

@@ -1,0 +1,314 @@
+:root {
+    --btn_add_bg: #0a95b4;
+    --btn_edit_bg: #a87f0d;
+    --btn_update_bg: #5783db;
+    --btn_save_bg: #064E3B;
+    --btn_delete_bg: #FF0000;
+    --btn_close_bg: #a7222b;
+    --btn_active_bg: #33b249;
+    --btn_inactive_bg: #E1444F;
+    --btn_approve1_bg: #9D68FF;
+    --btn_approve2_bg: #2E618B;
+    --btn_details_bg: #334155;
+    --btn_preview_image_bg: #DBC6BB;
+    --btn_preview_doc_bg: #67597A;
+    --btn_pdf_bg: #6D676E;
+    --btn_excel_bg: #65A6A3;
+    --btn_download_bg: #253749;
+    --thead_bg: #e2e2e2;
+    --navigation_bg: #ffffff;
+
+    --btn_add_text: white;
+    --btn_edit_text: white;
+    --btn_update_text: white;
+    --btn_save_text: white;
+    --btn_delete_text: white;
+    --btn_close_text: white;
+    --btn_active_text: white;
+    --btn_inactive_text: white;
+    --btn_approve1_text: white;
+    --btn_approve2_text: white;
+    --btn_details_text: white;
+    --btn_preview_image_text: white;
+    --btn_preview_doc_text: white;
+    --btn_pdf_text: white;
+    --btn_excel_text: white;
+    --btn_download_text: white;
+
+    --title_text: #000000;
+
+
+
+    /* project specific */
+    --btn_order_bg: #164E63;
+    --btn_order_text: white;
+
+    --btn_payment_bg: #D691CE;
+    --btn_payment_text: white;
+
+    --btn_map_bg: #64230D;
+    --btn_map_text: white;
+
+    --btn_role_bg: #DBC6BB;
+    --btn_role_text: black;
+
+    --btn_zone_bg: #ce4992;
+    --btn_zone_text: white;
+
+    --btn_makepayment_bg: #8497AC;
+    --btn_makepayment_text: white;
+
+    --btn_adjust_order_bg: #473D5A;
+    --btn_adjust_order_text: white;
+
+    /* solaman css*/
+    --nav_bg1:#a8bfbb;
+    --nav_bg2:#0cb7bb;
+    --nav_bg: #851818;
+    --title_bg: #FAF6E1;
+    --content_bg: #CC2229;
+    --rich_duck_content_bg: #FFD400;
+    --iron_pan_content_bg: #021C14;
+    --hainanese_chicken_content_bg: #701522;
+    --btn_complain_bg1:#009FDE;
+    --btn_complain_bg2:#00427E;
+    --title_linear_bg1: #851818;
+    --title_linear_bg2: #b50102;
+    --title_linear_bg3: #871818;
+    --btn_complain_text:white;
+    --dark_red_bg: #CC2229;
+    --dark_yellow_bg: #FFD400;
+    --dark_green: #021C14;
+    --dark_marun_bg: #701522;
+    --load_more_btn_bg:#00427E;
+    --previous_page_btn_bg:#701522;;
+
+    --sidebar_1: #473D5A;
+    --sidebar_2: #8497AC;
+    --thead_text: #000;
+
+}
+
+.btn_load_more{
+    background-color: var(--load_more_btn_bg) !important;
+    color: var(--btn_add_text) !important;
+}
+
+.btn_previous_page{
+    background-color: var(--previous_page_btn_bg) !important;
+    color: var(--btn_add_text) !important;
+}
+
+.btn_add_color{
+    color: var(--btn_add_bg) !important;
+}
+
+.btn_add{
+    background-color: var(--btn_add_bg) !important;
+    color: var(--btn_add_text) !important;
+}
+
+.btn_edit_color{
+    color: var(--btn_edit_bg) !important;
+}
+
+.btn_edit{
+    background-color: var(--btn_edit_bg) !important;
+    color: var(--btn_edit_text) !important;
+}
+
+.btn_update{
+    background-color: var(--btn_update_bg) !important;
+    color: var(--btn_update_text) !important;
+}
+
+.btn_update{
+    background-color: var(--btn_update_bg) !important;
+    color: var(--btn_update_text) !important;
+}
+
+.btn_save{
+    background-color: var(--btn_save_bg) !important;
+    color: var(--btn_save_text) !important;
+}
+
+.btn_delete{
+    background-color: var(--btn_delete_bg) !important;
+    color: var(--btn_delete_text) !important;
+}
+
+.btn_delete_color{
+    color: var(--btn_close_bg) !important;
+}
+
+.btn_close{
+    background-color: var(--btn_close_bg) !important;
+    color: var(--btn_close_text) !important;
+}
+
+.btn_active{
+    background-color: var(--btn_active_bg) !important;
+    color: var(--btn_active_text) !important;
+}
+
+.btn_active_color{
+    color: var(--btn_active_bg) !important;
+}
+
+.btn_inactive{
+    background-color: var(--btn_inactive_bg) !important;
+    color: var(--btn_inactive_text) !important;
+}
+
+.btn_inactive_color{
+    color: var(--btn_inactive_bg) !important;
+}
+
+.btn_approve1{
+    background-color: var(--btn_approve1_bg) !important;
+    color: var(--btn_approve1_text) !important;
+}
+
+.btn_approve2{
+    background-color: var(--btn_approve2_bg) !important;
+    color: var(--btn_approve2_text) !important;
+}
+
+.btn_details{
+    background-color: var(--btn_details_bg) !important;
+    color: var(--btn_details_text) !important;
+}
+
+.btn_preview_image{
+    background-color: var(--btn_preview_image_bg) !important;
+    color: var(--btn_preview_image_text) !important;
+}
+
+.btn_preview_doc{
+    background-color: var(--btn_preview_doc_bg) !important;
+    color: var(--btn_preview_doc_text) !important;
+}
+
+.btn_pdf{
+    background-color: var(--btn_pdf_bg) !important;
+    color: var(--btn_pdf_text) !important;
+}
+
+.btn_excel{
+    background-color: var(--btn_excel_bg) !important;
+    color: var(--btn_excel_text) !important;
+}
+
+.btn_excel_color{
+    color: var(--btn_excel_bg) !important;
+}
+
+.btn_download{
+    background-color: var(--btn_download_bg) !important;
+    color: var(--btn_download_text) !important;
+}
+
+.btn_website{
+    color: var(--btn_save_bg) !important;
+}
+
+
+/* project specific */
+.btn_order{
+    background-color: var(--btn_order_bg) !important;
+    color: var(--btn_order_text) !important;
+}
+
+.btn_payment{
+    background-color: var(--btn_payment_bg) !important;
+    color: var(--btn_payment_text) !important;
+}
+
+.btn_mapview{
+    background-color: var(--btn_map_bg) !important;
+    color: var(--btn_map_text) !important;
+}
+
+.btn_role{
+    background-color: var(--btn_role_bg) !important;
+    color: var(--btn_role_text) !important;
+}
+
+.btn_zone{
+    background-color: var(--btn_zone_bg) !important;
+    color: var(--btn_zone_text) !important;
+}
+
+.btn_makepayment{
+    background-color: var(--btn_makepayment_bg) !important;
+    color: var(--btn_makepayment_text) !important;
+}
+
+.btn_adjust_order{
+    background-color: var(--btn_adjust_order_bg) !important;
+    color: var(--btn_adjust_order_text) !important;
+}
+
+.btn_complain{
+    /* background: linear-gradient(to left, var(--btn_complain_bg1), var(--btn_complain_bg2) ) !important; */
+    background: linear-gradient(180deg, #851818 0%, #b50102 48%, #871818 100%);
+    color: var(--btn_complain_text) !important;
+}
+
+.footer_bg{
+    background: linear-gradient(180deg, var(--sidebar_1), var(--sidebar_2) ) !important;
+}
+
+.thead_bg{
+    background-color: var(--thead_bg) !important;
+    color: var(--thead_text) !important;   
+}
+
+.v_toolbar{
+    background: linear-gradient(180deg, var(--sidebar_1), var(--sidebar_2) ) !important;
+    color: var(--thead_text) !important;   
+}
+
+.category_title{
+    background-color: var(--title_bg) !important;
+    color: var(--title_text) !important;   
+}
+
+.v_navigation{
+    background-color: var(--navigation_bg) !important;
+}
+
+/*========= food website css by solaman =========*/
+
+/* admin sidebar */
+.bg_gradient {
+    /*background: linear-gradient(180deg, #851818 0%, #b50102 48%, #871818 100%);*/
+    background: #021C14 !important;
+    color: #fff !important;  
+}
+
+/* website navbar */
+.nav-color{
+    background-color: var(--nav_bg) !important;
+    color: var(--title_text) !important;  
+}
+
+.title_bg{
+    background: linear-gradient(180deg, var(--title_linear_bg1) 0%, var(--title_linear_bg2) 48%, var(--title_linear_bg3) 100%) !important;
+}
+
+.dark_red_bg{
+    background-color: var(--dark_red_bg) !important;
+}
+
+.dark_yellow_bg{
+    background-color: var(--dark_yellow_bg) !important;
+}
+
+.dark_green{
+    background-color: var(--dark_green) !important;
+}
+
+.dark_marun_bg{
+    background-color: var(--dark_marun_bg) !important;
+}

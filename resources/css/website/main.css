@@ -1,0 +1,1024 @@
+ul li{
+    /* list-style: none; */
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.form_card_bg{
+    background: url("/all-assets/common/icon/clientreview-bg.png");
+ }
+
+/*======== button loader css ==========*/
+
+.dot-pulse {
+    position: relative;
+    left: -9999px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #fff;
+    box-shadow: 9999px 0 0 -5px;
+    animation: dot-pulse 1.5s infinite linear;
+    animation-delay: 0.25s;
+}
+
+.dot-pulse::before, .dot-pulse::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #fff;
+}
+
+.dot-pulse::before {
+    box-shadow: 9984px 0 0 -5px;
+    animation: dot-pulse-before 1.5s infinite linear;
+    animation-delay: 0s;
+}
+
+.dot-pulse::after {
+    box-shadow: 10014px 0 0 -5px;
+    animation: dot-pulse-after 1.5s infinite linear;
+    animation-delay: 0.5s;
+}
+
+@keyframes dot-pulse-before {
+    0% {
+    box-shadow: 9984px 0 0 -5px;
+    }
+    30% {
+    box-shadow: 9984px 0 0 2px;
+    }
+    60%, 100% {
+    box-shadow: 9984px 0 0 -5px;
+    }
+}
+
+@keyframes dot-pulse {
+    0% {
+    box-shadow: 9999px 0 0 -5px;
+    }
+    30% {
+    box-shadow: 9999px 0 0 2px;
+    }
+    60%, 100% {
+    box-shadow: 9999px 0 0 -5px;
+    }
+}
+
+@keyframes dot-pulse-after {
+    0% {
+    box-shadow: 10014px 0 0 -5px;
+    }
+    30% {
+    box-shadow: 10014px 0 0 2px;
+    }
+    60%, 100% {
+    box-shadow: 10014px 0 0 -5px;
+    }
+}
+
+/*====================*/
+
+/* .bg-red {
+    background-color: #cc2229;
+}
+
+.approve {
+    overflow: hidden;
+}
+
+.approve .approve-box {
+    position: relative;
+    margin: 0 auto;
+}
+
+.chicken .con-title {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.column-3-step {
+    background-color: #ffd400;
+} */
+
+/*.column-3-step::before {
+    content: "";
+    position: absolute;
+    width: 132px;
+    height: 100%;
+    left: 628px;
+    top: 0;
+    z-index: 0;
+    border-top: 674px solid #ffd400;
+    border-left: 120px solid transparent;
+    transform: translateX(-50%);
+}*/
+
+ .column-3-step::before {
+    content: "";
+    position: absolute;
+    width: 132px;
+    height: 100%;
+    left: 628px;
+    top: 0;
+    z-index: 0;
+    border-top: 674px solid #ffd400;
+    border-left: 120px solid transparent;
+}
+
+.text-dark {
+    color: #343a40!important;
+}
+
+/*===== carosel css =======*/
+
+.carosel{
+    /* background-color: #851818; */
+    background: linear-gradient(180deg, #851818 0%, #b50102 48%, #871818 100%);
+}
+
+.promotion-carosel{
+    background-image: url('/all-assets/common/img/bg-hero-banner-single.jpg');
+    justify-content: center!important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding-top:10px;
+}
+
+.down-icon-box {
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+}
+
+.down-icon-box .icon-down {
+    background-image: url('/all-assets/common/img/arrow-down1.gif');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-self: flex-end;
+    margin: 0 auto;
+    width: 100%;
+    height: 70px;
+}
+
+
+.down-icon-box2 .icon-down2 {
+    background-image: url('/all-assets/common/img/arrow-down1.gif');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 100%;
+    height: 70px;
+}
+
+/*==== end carosel css =====*/
+
+/*==== slide box css ====*/
+
+.slide-box{
+    background: linear-gradient(180deg, #851818 0%, #b50102 48%, #871818 100%);
+}
+
+/*=== slide box css end =====*/
+
+/*===== home page css =========*/
+
+.find-business-content{
+    background-image: url('/all-assets/common/img/bg-sceen.jpg');
+    justify-content: center!important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* on-various / post section css */
+
+.post-section .post-section-content{
+    color:#fff !important;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+
+.post-section .post-section-content:hover{
+    background: #FFD400 !important;
+    color:#000 !important;
+	transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+	transition: .2s ease-in-out;
+    /* box-shadow: 1px 1px 1px 1px #000; */
+    text-underline-position: under;
+    cursor: pointer;
+}
+
+/* on-various / post section css end */
+
+.five-star-text,
+.iron-pan,
+.hainanese-chicken{
+    padding:100px;
+    color:#fff;
+}
+
+.five-star-text,
+.rich-duck,
+.iron-pan,
+.hainanese-chicken,
+.five-star-glass-text p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.rich-duck,
+.five-star-glass-text{
+    padding:100px;
+    color:#000;
+}
+
+/* point of sale css */
+
+.pos_design{
+	height: auto;
+	overflow: hidden;
+	z-index: 1;
+    top:2px;
+}
+
+svg.svg-intro-bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    z-index: -1;
+}
+svg.svg-intro-bottom-2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 65%;
+    z-index: -1;
+}
+svg.svg-intro-bottom-3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.pos-part p{
+    font-weight: 900;
+    font-size: 1.7em;
+    color: #cc2229;
+    position: relative;
+    z-index: 2;
+}
+
+.pos-text-part .pos-icon {
+    transition: all .8s;
+}
+
+.pos-text-part:hover .pos-icon {
+    transition: all .8s;
+    transform: rotate(10deg);
+}
+
+.title-text-part p{
+    font-size: 20px;
+    border-left:1px solid #cc2229;
+}
+
+.details-text-part p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+/* point of sale css end*/
+
+.five-star-business p{
+    text-align: justify;
+}
+
+.five-star-business span{
+    color: #FFD400;
+}
+
+.column-text-bar {
+    color: #ffd400;
+    transform-origin: 50px bottom;
+    transform: rotate(-90deg);
+    position: relative;
+    left: -90px;
+    top: 200px;
+}
+
+.column-text-bar:after {
+    border-bottom: 1px solid #ffd400;
+    content: "";
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    width: 200px;
+}
+
+.column-text-bar2 {
+    color: #fff;
+    transform-origin: 50px bottom;
+    transform: rotate(-90deg);
+    position: relative;
+    left: -850px;
+    top: 200px;
+}
+
+.column-text-bar2:before {
+    border-bottom: 1px solid #fff;
+    content: "";
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    width: 200px;
+}
+
+/*===== home page css end =========*/
+
+/*==== franchise page css =======*/
+.carousel-inner img{
+    height: 500px !important;
+}
+.franchise-business-idea-section .business-idea-line{
+    font-size:16px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.section_design{
+	height: auto;
+	overflow: hidden;
+	z-index: 1;
+    top:11px;
+}
+.support-box-head p{
+    /* text-align: justify; */
+    font-size: 21px;
+    border-left:1px solid #cc2229;
+}
+
+.support-box-head .title{
+    color: #bfa041 !important;
+    font-size:2.4em !important;
+    line-height: 40px !important;
+    position: relative;
+    z-index: 2;
+}
+
+.support-box-text .box-icon {
+    transition: all .8s;
+    position: relative;
+    z-index: 2;
+}
+
+.support-box-text:hover .box-icon {
+    transition: all .8s;
+    transform: rotate(10deg);
+}
+
+.support-box-details p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+/* concept box css*/
+
+/* .concept-box-head p{
+    text-align: justify;
+} */
+
+/* .concept-box-details p{
+    font-size: 15px;
+    text-align: justify;
+} */
+
+/* concept box css end*/
+
+/*====== section concept css =======*/
+/* this part css is in vue file */
+/* ===== section concept css end ==========*/
+
+/* investment section css*/
+.investment-section-concept {
+    padding-top: 50px;
+}
+
+/* .investment-section-concept .investment-content .con-title {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color:#cc2229;
+} */
+
+.investment-section-concept .investment-content .con-line ul{
+    list-style: none;
+    padding: 0;
+    margin:0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.investment-section-concept .concept-download {
+    background-image: url("/all-assets/common/img/chicken-concept-download.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+}
+
+.investment-section-concept .concept-download .download-image {
+    padding-top:90px;
+}
+
+.investment-section-concept .concept-download .download-title {
+    color: #cc2229;
+    font-size: 1.4em;
+}
+
+/* investment section css end*/
+
+/* section-register css*/
+.section-register{
+    background-image: url('/all-assets/common/img/bg-section-register.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    position: relative;
+}
+/* section-register css end*/
+
+/* ===== franchise page css end ======*/
+
+/* ===== about page css =========*/
+
+.section-slogan{
+    background-image: url('/all-assets/common/img/bg-section-slogan.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-slogan .slogan-box {
+	padding: 200px 0;
+}
+.section-slogan .slogan-box .slogan-head {
+	font-size: 2.6em !important;
+	color: #cc2229;
+	display: unset;
+	position: relative;
+    font-weight: 900;
+}
+.section-slogan .slogan-box .slogan-head::before {
+	content: "";
+	position: absolute;
+	border: 1px solid #cc2229;
+	width: 600px;
+	top: 51%;
+	right: 105%;
+}
+.section-slogan .slogan-box .slogan-head::after {
+	content: "";
+	position: absolute;
+	border: 1px solid #cc2229;
+	width: 600px;
+	top: 51%;
+	left: 105%;
+}
+.section-slogan .slogan-box .slogan-title {
+	color: #000;
+	font-size: 2.2em;
+	margin-bottom: 50px;
+    font-weight: 600;
+    padding: 0 5px;
+}
+
+/* ======== about page css end ======*/
+
+/*======= product page css ========*/
+
+/* .card-product-body .product-info-section{
+    min-width: 250px;
+} */
+
+.card-product .card-product-body {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 8px;
+    border: rgba(0, 0, 0, 0.1) 1px solid;
+    background-color: #fff;
+}
+
+.card-product .card-product-body:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-product .card-product-body a{
+    text-decoration: none;
+}
+
+.product-title{
+    color:#000 !important;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.product-des{
+    color:green !important;
+    font-size: 18px;
+}
+
+.section-product .product-box {
+	padding: 30px 0;
+}
+
+.section-product .product-box .product-details {
+	color: #000;
+	font-size: 2.2em;
+    font-weight: 600;
+    padding-top:40px;
+}
+
+.section-product .product-box .product-details ul li {
+	padding:0px;
+    margin:0px;
+    line-height:30px;
+    font-size:16px;
+    font-weight: normal;
+}
+
+.product-bottom-section .product-bottom-section-content{
+    color:#fff !important;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+
+.product-bottom-section .product-bottom-section-content:hover{
+    background: #FFD400 !important;
+    color:#000 !important;
+	transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+	transition: .2s ease-in-out;
+    text-underline-position: under;
+    cursor: pointer;
+}
+
+/*====== product page css end =======*/
+
+/*======= promotion page css ======*/
+
+.section-promotion{
+	padding: 30px 0;
+}
+
+.card-promotion .card-promotion-body {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 8px;
+    border: rgba(0, 0, 0, 0.1) 1px solid;
+    background-color: #fff;
+}
+
+.card-promotion .card-promotion-body:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-promotion .card-promotion-body a{
+    text-decoration: none;
+}
+
+.promotion-text-link a{
+    color:#000 !important;
+    padding-top:50px !important;
+    font-size: 0.8em;
+    text-decoration: underline !important;
+}
+
+.promotion-title{
+    color:#000 !important;
+    font-weight: 900;
+    font-size: 18px;
+}
+.promotion-des{
+    color:#ff0000 !important;
+    font-weight: normal;
+}
+
+/*====== promotion page css end =====*/
+
+
+
+/*======= contact css =======*/
+
+.contact-social-icon{
+    background:#f1f1f1;
+    height:70px;
+}
+
+.contact-social-icon p{
+    margin-right:20px;
+}
+
+.social_link a{
+    text-decoration: none;
+}
+
+.contact-us .head p{
+    font-weight: 900;
+    font-size: 1.7em;
+    color: #cc2229;
+}
+
+.contact-us .title p{
+    font-size: 21px;
+    text-align: justify;
+    border-left:1px solid #cc2229;
+}
+
+.office-address p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+.inquery-form-box .inquery-form-head {
+	font-size: 2em;
+	color: #cc2229;
+	margin-bottom: 15px;
+	display: unset;
+	position: relative;
+    font-weight: 900;
+}
+
+/* .inquery-form-box .inquery-form-head::after {
+	content: "";
+	position: absolute;
+	border: 1px solid #cc2229;
+	width: 700px;
+	top: 51%;
+	left: 105%;
+} */
+
+/*======= contact us css end ========*/
+
+/*===== complain page css =========*/
+.complain-box .complain-head {
+	font-size: 2.6em !important;
+	color: #cc2229;
+	position: relative;
+    font-weight: bold;
+}
+
+ /* .complain-box .complain-head::after {
+	content: "";
+	position: absolute;
+	border: 1px solid #cc2229;
+	width: 100%;
+	top: 50%;
+	left: 105%;
+} */
+
+/*===== complain page css end ======*/
+
+/*========= footer css =========*/
+.footer-area{
+    background:#f2f3f8;
+    border-bottom:3px solid #e2e2e2;
+	overflow: hidden;
+	z-index: 1;
+}
+.footer-widget .footer-title h4{
+    position: relative;
+    font-size: 20px;
+    font-weight: bold;
+    color: #00427E;
+    line-height: 1;
+    text-transform: capitalize;
+    margin: 0 0 36px;
+    padding: 0 0 14px;
+    letter-spacing: .7px;
+}
+
+.footer-widget .footer-title h4:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    width: 50px;
+    background-color: #00a651;
+}
+
+.footer-widget .footer-about p {
+  color: #555;
+  line-height: 23px;
+  font-size: 14px;
+}
+
+.footer-widget .f-contact-info .single-f-contact-info span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #00427E;
+    margin: 0;
+    line-height: 19px;
+}
+
+.footer-widget a{
+    text-decoration: none;
+}
+
+.footer-widget .footer-list ul li {
+    list-style: none;
+}
+
+.footer-widget .footer-list ul li:last-child {
+    margin-bottom: 0;
+}
+.footer-widget .footer-list ul li a {
+    text-decoration: none;
+    color: #00427E;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.footer-widget .footer-list ul li a:hover {
+    color: #00a651;
+}
+/*========= footer css end =========*/
+
+
+/*======= ALL ANIMATION CSS START ==========*/
+
+.section-title-bar {
+    height: 7px;
+    width: 100px;
+    background: #f1f1f1;
+    border-radius: 50px;
+    position: relative;
+    margin: 14px 0;
+}
+
+.section-title-bar{
+    margin: 0 auto;
+}
+
+.section-title-bar{
+    display: inline-block;
+}
+
+.section-title-bar::after{
+    height: 13px;
+    width:13px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    content: "";
+    border-radius: 50%;
+    background: #FFD105;
+    animation:linear infinite alternate;
+    animation-name: leftrun;
+    animation-duration: 5s;
+}
+@keyframes leftrun {
+    0% { left: 0;}
+    50%{ left : 100%;}
+    100%{ left: 0;}
+}
+.section-title-bar::before{
+    height: 13px;
+    width:13px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    content: "";
+    border-radius: 50%;
+    background: #00427E;
+    animation:linear infinite alternate;
+    animation-name: rightrun;
+    animation-duration: 5s;
+}
+
+@keyframes rightrun {
+    0% { right: 0;}
+    50%{ right : 100%;}
+    100%{ right: 0;}
+}
+
+/* five star business animation */
+.shape3 {
+    position: absolute;
+    left: 100px;
+    top: 30px;
+    animation:linear infinite;
+    animation-name: shape3animation;
+    animation-duration: 10s;
+}
+
+@keyframes shape3animation {
+    form{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(359deg);
+    }
+}
+.shape4 {
+    position: absolute;
+    right: 350px;
+    top: 150px;
+    animation:linear infinite;
+    animation-name: shape4animation;
+    animation-duration: 15s;
+}
+
+@keyframes shape4animation {
+    0%{
+        right:350px;
+    }
+    40%{
+        right:300px;
+    }
+    70%{
+        top:50px;
+    }
+    100%{
+        right:350px;
+    }
+}
+
+/* five star business animation end */
+
+/* pos animation */
+
+.news-shape {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+/*======= ALL ANIMATION CSS START END =========*/
+
+
+
+
+
+
+
+
+
+
+/*=========== responsive media query ===========*/
+/* for desktop screen */
+@media(min-width:1024px) {
+    .card-promotion  .card-promotion-body  .card-des{
+        width: 300px !important;
+    }
+}
+
+/* for tab screen */
+@media(max-width:900px) {
+    .card-promotion  .card-promotion-body  .card-des{
+        width: 400px !important;
+    }
+}
+
+/* for mobile screen */
+@media (max-width: 576px) {
+
+    .carousel-inner img{
+        height: 300px !important;
+    }
+
+    .complain-box .complain-head {
+        font-size: 1.6em !important;
+        padding:5px;
+    }
+
+/*========= home page css ========*/
+
+    .social-icon p {
+        font-size: 10px !important;
+    }
+
+    .five-star-text,
+    .iron-pan,
+    .hainanese-chicken{
+        padding:30px;
+        color:#fff;
+        font-size: 14px;
+    }
+
+    .hainanese-chicken p{
+        font-size: 14px !important;
+    }
+
+    .rich-duck{
+        padding:30px;
+        color:#000;
+        font-size: 14px;
+    }
+
+    .post-section-content iframe{
+        width: 100% !important;
+    }
+
+    .post-section-content video{
+        width: 100% !important;
+    }
+
+/*====== about page ======*/
+
+    .section-slogan .slogan-box {
+        padding: 20px 0;
+    }
+
+    .section-slogan .slogan-box .slogan-head {
+        font-size: 1.8em !important;
+    }
+
+    .section-slogan .slogan-box .slogan-title {
+        font-size: 1.0em !important;
+    }
+
+    .five-star-business .head{
+        font-size: 1.4em !important;
+    }
+
+/*======== about page end ===========*/
+/* ====== franchisee page css =====*/
+    .franchise-business-idea-section .business-idea-content {
+        font-size: 1.0em !important;
+    }
+
+    .franchise-business-idea-section .business-idea-line {
+        font-size: 1.0em !important;
+        margin-top: 5px !important;
+    }
+
+    .five-star-glass-text p{
+        font-size: 14px;
+    }
+
+    .five-star-glass-text{
+        padding:10px !important;
+    }
+
+    .concept-box-text .concept-box-head{
+        font-size: 20px !important;
+    }
+
+    .concept-box-text .concept-box-content p{
+        font-size: 15px !important;
+    }
+
+    .investment-section-concept {
+        margin-bottom: 10px !important;
+    }
+
+    .concept-download .download-title{
+        font-size: 14px !important;
+    }
+
+/*=== franchisee page css end ===*/
+
+/*=== promotion page css ===*/
+
+    .card-promotion  .card-promotion-body  .card-des{
+        width: 100% !important;
+    }
+
+/*=== promotion page css end ===*/
+
+/*=== contact page css ===*/
+
+    .contact-social-icon .follow-us{
+        font-size:15px;
+    }
+
+    .contact-social-icon p {
+        margin-right: 5px;
+    }
+
+/*=== contact page css end ===*/
+
+}
